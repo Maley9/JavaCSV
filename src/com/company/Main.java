@@ -8,6 +8,10 @@ import java.nio.file.Path;
 import java.nio.file.Paths;
 import java.util.*;
 
+
+/* Damian Ostapczuk
+    nr indeksu 11759
+
 public class Main {
 
     public static void main(String[] args) throws IOException {
