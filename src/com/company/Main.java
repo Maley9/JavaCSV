@@ -24,7 +24,7 @@ public class Main {
         PersonAdd add = new PersonAdd();
         add.addPerson();
         
-        System.out.println("Tabela zostala posortowana po imieniu");
+        System.out.println("Sorting by name");
         new Main().sort(FileName, "csv1.txt");
 
 
