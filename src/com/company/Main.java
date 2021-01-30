@@ -20,10 +20,12 @@ public class Main {
         String FileName = "Exel.csv";
         String Textread = readFile(FileName);
         System.out.println("Text in file " + "\n" + Textread);
-        new Main().sort(FileName, "csv1.txt");
 
         PersonAdd add = new PersonAdd();
         add.addPerson();
+        
+        System.out.println("Tabela zostala posortowana po imieniu");
+        new Main().sort(FileName, "csv1.txt");
 
 
 
