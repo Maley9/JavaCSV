@@ -24,7 +24,7 @@ public class PersonAdd {
             String newPerson = FirstName +","+ LastName +","+ BirthY +","+ Pesel;
 
             BufferedReader reader = new BufferedReader(new FileReader("Exel.csv"));
-            BufferedWriter writer = new BufferedWriter(new FileWriter(new File("nExel.csv")));
+            BufferedWriter writer = new BufferedWriter(new FileWriter(new File("Exel.csv"), true));
             while ((line = reader.readLine()) != null) {
                 writer.write(line);
                 writer.newLine();
